@@ -56,4 +56,19 @@ body {
   height: 2rem;
   margin-bottom: 1%;
 }
+
+.password-place {
+  margin-top: 25%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+  background-color: aliceblue;
+  opacity: 0.7;
+}
+
+.password-place #eye-slash {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
