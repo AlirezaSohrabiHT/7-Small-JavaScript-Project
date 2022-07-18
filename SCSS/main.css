@@ -1,18 +1,35 @@
+body {
+  background-image: url(../SRC/James-Webb-space-telescope.jpg);
+  background-repeat: no-repeat;
+}
+
 .pagination {
   display: inline-block;
   direction: ltr;
-  margin: 35% 35% 0 0;
+  margin-top: 40%;
+  margin-right: 30%;
 }
 
 .pagination a {
-  font-size: 2rem;
-  color: #000000;
+  font-size: 3rem;
+  color: #00ff62;
   float: left;
   padding: 8px 16px;
+  border-radius: 25%;
   text-decoration: none;
 }
 
 .pagination a:hover:not(.active) {
   background-color: #ddd;
+}
+
+.text {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #00ff62;
+  font-size: 2rem;
+  line-height: 1.8;
 }
 /*# sourceMappingURL=main.css.map */
