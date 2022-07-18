@@ -71,4 +71,52 @@ body {
 .password-place #eye-slash {
   display: none;
 }
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 5vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.navbar ul li {
+  background-color: aliceblue;
+  opacity: 0.7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  font-size: 2rem;
+  width: 150px;
+  height: 200%;
+  cursor: pointer;
+}
+
+.navbar ul li.active {
+  background: #9eb619;
+}
+
+.active-text {
+  margin-top: 25%;
+  font-size: 3rem;
+  text-align: center;
+  background-color: aliceblue;
+  opacity: 0.7;
+}
 /*# sourceMappingURL=main.css.map */
