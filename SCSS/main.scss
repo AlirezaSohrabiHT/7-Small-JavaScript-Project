@@ -174,3 +174,41 @@ body{
     opacity: 1;
     visibility: visible;
   }
+
+  .container{
+    // background-color: aliceblue;
+    // opacity: 0.7;
+    width: 700px;
+    margin-top: 25%;
+    margin-left: 25%;
+    .accordion{
+      background: rgb(1, 255, 149);
+      font-size: $font-size - 2rem;
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      // border: 2px solid gold;
+    }
+    .accordion-title{
+      background: rgb(1, 255, 149);
+      font-size: $font-size - 2rem;
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      border: 2px solid rgb(0, 0, 0);
+      cursor: pointer;
+    }
+    .accordion-title::before{
+      content: '+';
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+    }
+    .accordion-title.active::before{
+      content: '-';
+    }
+    .accordio-content{
+      background: rgba(29, 202, 107, 0.568);
+      height: 0;
+      overflow: hidden;
+      transition: all 0.4s ease-in;
+    }
+  }

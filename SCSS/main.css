@@ -221,4 +221,45 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
+.container {
+  width: 700px;
+  margin-top: 25%;
+  margin-left: 25%;
+}
+
+.container .accordion {
+  background: #01ff95;
+  font-size: 1rem;
+  padding: 10px;
+  color: black;
+}
+
+.container .accordion-title {
+  background: #01ff95;
+  font-size: 1rem;
+  padding: 10px;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.container .accordion-title::before {
+  content: '+';
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.container .accordion-title.active::before {
+  content: '-';
+}
+
+.container .accordio-content {
+  background: rgba(29, 202, 107, 0.568);
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
 /*# sourceMappingURL=main.css.map */
